@@ -1,0 +1,499 @@
+body{
+	background-color: white;
+background-image: linear-gradient(#e3e3e3 2px, transparent 2px),
+linear-gradient(90deg, #e3e3e3 2px, transparent 2px),
+linear-gradient(#e3e3e3, 1px, transparent 1px),
+linear-gradient(90deg, #e3e3e3 1px, transparent 1px);
+background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+)
+	
+	}
+
+
+h1{
+color: #0000FF;
+font-family: rubik; 
+position: absolute;
+left: 40px;
+top: 500px;
+font-size: 50px;
+transform: rotate(-90deg);
+
+}
+
+h2{
+	color: #0000FF;
+font-family: rubik; 
+font-size: 50px;
+position: absolute;
+left: 290px;
+top: 90px;
+transform: rotate(-90deg);
+	}
+
+h3{
+	color: #0000FF;
+font-family: rubik; 
+left: 10px;
+font-size: 20px;
+	}
+
+h4{
+	color: #0000FF;
+	line-height: 5px;
+font-family: Pt Sans;
+font-weight: bold; 
+left: 30px;
+font-size: 15px;
+	}
+
+p{
+color: black;
+line-height: 20px;
+	position: absolute;
+font-family: Inconsolata; 
+left: 50px;
+font-size: 12px;
+}
+
+
+
+.letter-w {
+        		width:210px; /*resize as you see fit */
+        		height:290px; /*resize as you see fit */
+        		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+        		/*border:1px solid #000; */
+        		position:relative; 
+        		transform: rotate(-90deg);
+        	    left: 175px;
+        		top: 350px;
+        		/* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+        	}
+
+
+section:hover .square{
+		 transition: all 0.5s ease;
+	  -webkit-transform: translate(15px,15px);
+}
+
+section:hover .square1{
+		 transition: all 0.5s ease;
+	  -webkit-transform: translate(10px,10px);
+}
+
+section:hover .square2{
+			 transition: all 0.5s ease;
+			 display: block;
+}
+
+section:hover .tab2{
+			 transition: all 0.5s ease;
+			 -webkit-transform: translate(10px,10px);
+
+}
+section:hover .x2{
+			 transition: all 0.5s ease;
+			 -webkit-transform: translate(10px,10px);
+
+}
+
+section:hover .tab3{
+			 transition: all 0.5s ease;
+			 -webkit-transform: translate(15px,15px);
+
+}
+section:hover .x3{
+			 transition: all 0.5s ease;
+			 -webkit-transform: translate(15px,15px);
+
+}
+
+.square12:hover{
+	 transition: all 0.5s ease;
+
+	  -webkit-transform: translate(10px,10px);
+}
+
+.letter-e {
+        		width:210px; /*resize as you see fit */
+        		height:290px; /*resize as you see fit */
+        		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+        		/*border:1px solid #000; */
+        		position:relative; 
+        		transform: rotate(-90deg);
+        	    left: -15px;
+        		top: 245px;
+        		/* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+        	}
+
+.letter-b {
+        		width:210px; /*resize as you see fit */
+        		height:290px; /*resize as you see fit */
+        		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+        		/*border:1px solid #000; */
+        		position:relative; 
+        		transform: rotate(-90deg);
+        	    left: -229px;
+        		top: 90px;
+        		/* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+        	}
+
+
+
+.letter-w1{
+	background-image: linear-gradient(#7FFF00,white);
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7FFF00;
+	height: 145px;
+	width: 40px;
+	border-radius: 40px;
+	top: 70px;
+	left: 18px;
+}
+
+
+.letter-w2{
+	background-image: linear-gradient(#7FFF00,white);
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7FFF00;
+	height: 145px;
+	width: 40px;
+	border-radius: 40px;
+	top: 70px;
+	left: 102px;
+}
+
+.letter-w3{
+	background-color: #7FFF00;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7FFF00;
+	transform: rotate(140deg);
+	position: absolute;
+	height: 100px;
+	width: 40px;
+	border-radius: 20px 40px 20px 40px;
+	top: 130px;
+	left: 80px;
+}
+
+.letter-w4{
+	background-color: #7FFF00;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7FFF00;
+	transform: rotate(40deg);
+	position: absolute;
+	height: 100px;
+	width: 40px;
+	border-radius: 40px 20px 40px 20px;
+	top: 130px;
+	left: 40px;
+}
+
+.letter-e1{
+	background-image: linear-gradient(#7FFF00,white);
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7FFF00;
+	height: 145px;
+	width: 40px;
+	border-radius: 0px 40px 0px;
+	top: 50px;
+	left: 65px;
+
+}
+
+.letter-e2{
+	background: #7FFF00;
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7FFF00;
+	height: 100px;
+	width: 40px;
+	border-radius: 40px 40px 0px 0px;
+	transform: rotate(90deg);
+	top: 20px;
+	left: 100px;
+
+}
+
+.letter-e3{
+	background: #7FFF00;
+	position: absolute;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7FFF00;
+	height: 80px;
+	width: 40px;
+	border-radius: 40px 40px 0px 0px;
+	transform: rotate(90deg);
+	top: 82px;
+	left: 105px;
+
+}
+
+.letter-e4{
+	background: #7FFF00;
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7FFF00;
+	height: 100px;
+	width: 40px;
+	border-radius: 40px 40px 40px 0px;
+	transform: rotate(90deg);
+	top: 125px;
+	left: 110px;
+
+}
+
+.letter-b1 {
+	background-image: linear-gradient(#7FFF00,white);
+	position: absolute;
+	border-style: solid;
+	border-color:  #7FFF00;
+	border-width: 1px;
+	height: 145px;
+	width: 40px;
+	border-radius: 0px 40px 0px;
+	top: 50px;
+	left: 50px;
+
+}
+
+.letter-b2 {
+	background: white;
+	position: absolute;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	height: 40px;
+	width: 30px;
+	border-radius: 40px 40px 0px 0px;
+	transform: rotate(90deg);
+	top: 70px;
+	left: 90px;
+
+}
+
+.letter-b3 {
+	background: #7FFF00;
+	position: absolute;
+	border-style: solid;
+		border-width: 1px;
+	border-color: #7FFF00;
+	height: 70px;
+	width: 70px;
+	border-radius: 60px 60px 0px 0px;	
+	transform: rotate(90deg);
+	top: 125px;
+	left: 85px;
+
+}
+
+.letter-b4 {
+	background: white;
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	height: 40px;
+	width: 30px;
+	border-radius: 40px 40px 0px 0px;
+	transform: rotate(90deg);
+	top: 140px;
+	left: 95px;
+
+}
+.letter-b5 {
+	background: #7FFF00;
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7FFF00;
+	height: 95px;
+	width: 80px;
+	border-radius: 60px 60px 0px 0px;	
+	transform: rotate(90deg);
+	top: 43px;
+	left: 60px;
+
+}
+.square {
+  height: 600px;
+  width: 600px;
+  left: 490px;
+  top: 130px;
+  border: 6px solid;
+  border-color: #0000FF;
+  position: absolute;
+  background-color: white;
+  padding: 5px;
+font: 24px/36px sans-serif;
+overflow: scroll;
+}
+
+.square1 {
+  height: 600px;
+  width: 600px;
+  left: 440px;
+  top: 90px;
+  border: 6px solid;
+  border-color: #0000FF;
+  position: absolute;
+  background-color: white;
+}
+
+
+
+.square2 {
+  height: 600px;
+  width: 600px;
+  left: 390px;
+  top: 50px;
+  border: 6px solid;
+  border-color: #0000FF;
+  position: absolute;
+  background-color: white;
+}
+
+
+.circle{
+	height: 1000px;
+  width: 1000px;
+  left: 500px;
+  top: 50px;
+border-radius: 1000px;
+  position: absolute;
+  background-image: linear-gradient(white,#7FFF00);
+}
+  
+a{
+	color:  #0000FF;
+
+}
+
+a:hover { color: #7FFF00; }
+
+.tab1{
+	position: absolute;
+	height: 20px;
+	width: 100px;
+	left:400px;
+	top: 23px;
+	background-color: white;
+	text-align: center;
+	font-family: rubik;
+	border-radius: 10px 10px 0px 0px;
+	border: 6px solid;
+  border-color: #0000FF;
+}
+
+.x{
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	left:485px;
+	top: 33px;
+	text-align: center;
+	font-family: rubik;
+	font-size: 11px;
+	color: black;
+	border-radius: 100px;
+	background-color: #7FFF00;
+}
+
+.tab2{
+	position: absolute;
+	height: 20px;
+	width: 100px;
+	left:500px;
+	top: 63px;
+	background-color: white;
+	text-align: center;
+	font-family: rubik;
+	border-radius: 10px 10px 0px 0px;
+	border: 6px solid;
+  border-color: #0000FF;
+}
+
+.x2{
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	left:585px;
+	top: 73px;
+	text-align: center;
+	font-family: rubik;
+	font-size: 11px;
+	color: black;
+	border-radius: 100px;
+	background-color: #7FFF00;
+}
+
+.tab3{
+	position: absolute;
+	height: 20px;
+	width: 100px;
+	left:600px;
+	top: 103px;
+	background-color: white;
+	text-align: center;
+	font-family: rubik;
+	border-radius: 10px 10px 0px 0px;
+	border: 6px solid;
+  border-color: #0000FF;
+}
+
+.x3{
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	left:685px;
+	top: 113px;
+	text-align: center;
+	font-family: rubik;
+	font-size: 11px;
+	color: black;
+	border-radius: 100px;
+	background-color: #7FFF00;
+}
+
+#square21 {
+ height: 600px;
+  width: 600px;
+  left: 390px;
+  top: 50px;
+  border: 6px solid;
+  border-color: #0000FF;
+  position: absolute;
+  background-color: white;
+  display: none;
+}
+
+#square12 {
+  height: 600px;
+  width: 600px;
+  left: 450px;
+  top: 100px;
+  border: 6px solid;
+  border-color: #0000FF;
+  position: absolute;
+  background-color: white;
+  display: none;
+}
+
+button{
+   background-color: white;
+   width: 100px;
+   height: 20px;
+  }
+
